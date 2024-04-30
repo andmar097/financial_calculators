@@ -28,4 +28,6 @@ function mortgage() {
 
     let msgText = "Your monthly payment is " + monthlyPayment.toFixed(2) + " for " + loanLength + " years.Your total payment is " + paymentTotal.toFixed(2) + " and total interest is " + interestValue.toFixed(2);
     document.querySelector("#calculationResult").innerHTML = message
+
+    document.querySelector("#answerField").value = msgText;
 }
